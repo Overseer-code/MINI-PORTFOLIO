@@ -1,17 +1,17 @@
-:root{
-    --bg-color: #ffffff;
-    --text-color: #1a1a1a;
-    --accent-color: #191924;
-    --card-bg: #f4f4f8;
-    --nav-bg: #ffffff;
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --accent-color: #6b7280;
+  --card-bg: #f4f4f8;
+  --nav-bg: #ffffff;
 }
 
-body.dark{
-    --bg-color: #121212;
-    --text-color: #f1f1f1;
-    --accent-color: #d4a373;;
-    --card-bg: #1e1e1e;
-    --nav-bg: #1a1a1a;
+body.dark {
+  --bg-color: #121212;
+  --text-color: #f1f1f1;
+  --accent-color: #9ca3af;
+  --card-bg: #1e1e1e;
+  --nav-bg: #1a1a1a;
 }
 
 body {
@@ -51,12 +51,12 @@ body {
 
 .nav-links a{
     text-decoration: none;  
-    color: var(--text-color);
+    color: var(--accent-color);
     font-weight: 500;
 }
 
 .nav-links a:hover{
-    color: var(--accent-color);
+    color: var(--text-color);
 }
 
 #theme-toggle{
