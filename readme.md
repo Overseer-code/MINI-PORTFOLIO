@@ -10,7 +10,6 @@ A personal portfolio site built with plain HTML, CSS, and JavaScript.
 
 ## Features
 - Responsive navbar (Flexbox)
-- Dark mode toggle (saved with localStorage)
 - Education timeline
 - Project cards
 - Download CV button
